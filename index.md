@@ -14,7 +14,9 @@
             font-size: large;
         }
         .a{
-        float:left;
+          height: 200px;
+          width: auto;
+        }
         p{
             text-align: center;
             color: pink;
