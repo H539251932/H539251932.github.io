@@ -81,6 +81,7 @@
             }
             anmit();
             var oH=document.getElementsByTagName("h1")[0]; 
+        
             var arr=["这世间过于俗气","不像麻衣学姐一般","浩瀚星辰,温柔婉转","麻衣学姐么么么"],
                 index=0,
                 arrLen=arr.length,
