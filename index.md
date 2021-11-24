@@ -81,7 +81,7 @@
             anmit();
             var oH=document.getElementsByTagName("h1")[0]; 
             <br>
-             <br>
+           
             var arr=["这世间过于俗气","不像陌陌一般","浩瀚星辰,温柔婉转","陌陌是唯一鸭"],
                 index=0,
                 arrLen=arr.length,
