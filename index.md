@@ -26,7 +26,7 @@
 
 <body>
         <h1>胡浩的自我介绍</h1>
-      <div class="a"></div><img src="头像.png"></div>
+      <div class="a"></div><img src="yyds.png"></div>
         <table>
             <td>学号:21442046<br>姓名:胡浩<br>班级:软工本2<br>兴趣爱好:听歌，看书，运动<br>籍贯：湖北黄冈<br>年龄：18<br>自我介绍：非常荣幸能和大家一起在美丽的武工商学习</td></tr>
         </table>
