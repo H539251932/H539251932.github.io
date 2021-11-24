@@ -8,7 +8,7 @@
       <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
     </td>
     <td width="25%">
-      <img src="/头像.png" width="100%">      % 插入证件照代码
+      <img src="http://ys-k.ys168.com/604774045/318435733/hjsGkMh86434L743KP42cb/20160721210451_fuCsA.thumb.700_0.jpeg" width="100%">     
     </td>
   </tr>
 </table>
