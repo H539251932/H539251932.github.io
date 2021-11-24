@@ -1,55 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- 
-    Author: Minyoung
-    CreateAt: 2021年10月14日23:44:45
-    License: MIT
-  -->
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing...</title>
-  <link rel="stylesheet" href="style.css">
-  <script>
-    console.log(`%c 
-    Author: Minyoung
-    CreateAt: 2021年10月14日23:44:45
-    License: MIT
-    `, 'color:#6266f5;font-weight:bold')
-  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>***的自我介绍</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        img{
+            height: 300px;
+            border: solid  blue;
+        }
+        table{
+            font-size: large;
+        }
+        p{
+            text-align: center;
+            color: pink;
+            font-size: large;
+        }
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <div class="form-warp">
-      <form class="sign-in-form">
-        <h2 class="form-title">登录</h2>
-        <input placeholder="用户名" />
-        <input type="password" placeholder="密码" />
-        <div class="submit-btn">立即登录</div>
-      </form>
-      <form class="sign-up-form">
-        <h2 class="form-title">注册</h2>
-        <input placeholder="用户名" />
-        <input type="password" placeholder="密码" />
-        <div class="submit-btn">立即注册</div>
-      </form>
-    </div>
-    <div class="desc-warp">
-      <div class="desc-warp-item sign-up-desc">
-        <div class="content">
-          <button id="sign-up-btn">注册</button>
-        </div>
-        <img src="./img/log.svg" alt="">
-      </div>
-      <div class="desc-warp-item sign-in-desc">
-        <div class="content">
-          <button id="sign-in-btn">登录</button>
-        </div>
-        <img src="./img/register.svg" alt="">
-      </div>
-    </div>
-  </div>
-  <script src="main.js"></script>
+        <h1>胡浩的自我介绍</h1>
+        <table>
+            <tr valign="top"><td><img src="C:\Users\h5392\Pictures\Camera Roll\头像.jpg"></td>
+            <td>学号:21442046<br>姓名:胡浩<br>班级:软工本2<br>兴趣爱好:听歌，看书，运动<br>籍贯：湖北黄冈<br>年龄：18<br>自我介绍：非常荣幸能和大家一起在美丽的武工商学习</td></tr>
+        </table>
+        <p>以上为胡浩版权所有，盗版必究，需要请联系我或登录<a href="http://www.h539251932.ys168.com/">顺其自然空间</a></p>
 </body>
 </html>
