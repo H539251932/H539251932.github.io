@@ -1,17 +1,113 @@
-<table border="0">
-  <tr>
-    <td width="75%">
-      <h1>张三</h1>
-      <p><b>硕士研究生</b></p>
-      <p><b>××大学××学院</b></p>
-      <p><b>邮箱：1234567789@qq.com</b></p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
-    </td>
-    <td width="25%">
-      <img src="http://ys-k.ys168.com/604774045/318435733/hjsGkMh86434L743KP42cb/20160721210451_fuCsA.thumb.700_0.jpeg" width="100%">     
-    </td>
-  </tr>
-</table>
-————————————————
-版权声明：本文为CSDN博主「zxhohai」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/hohaizx/article/details/85066248
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星空特效</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow: hidden;
+            background-color: #000;
+        }
+        h1{
+            position: absolute;
+            line-height: 50px;
+            letter-spacing: 5px;
+            color: #fff;
+            width: 300px;
+            top: 40%;
+            left: 50%;
+            margin-left: -200px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+      
+    </h1>
+    <canvas></canvas>
+    <script>
+        var canvas=document.querySelector("canvas");
+            ctx=canvas.getContext("2d");
+            w=canvas.width=window.innerWidth;
+            h=canvas.height=window.innerHeight;
+            var canvas2=document.createElement("canvas");
+                ctx2=canvas2.getContext("2d");
+                canvas2.width=100;
+                canvas2.height=100;
+            var a=canvas2.width/2;
+        var grandient=ctx.createRadialGradient(a,a,0,a,a,a);
+            grandient.addColorStop(0.025,'#fff');
+            grandient.addColorStop(0.1, 'hsl(220,59%,18%)');
+            grandient.addColorStop(0.025, 'hsl(220,60%,33%)');
+            grandient.addColorStop(1,"transparent");
+            ctx2.fillStyle=grandient;
+            ctx2.beginPath();
+            ctx2.arc(a,a,a,0,Math.PI*2);
+            ctx2.fill();
+            ctx2.closePath();
+            var stars=[];
+            var count=0;
+            function Star(){
+                this.pos=Math.floor(Math.random()* w/2-100);
+                this.r=Math.floor(Math.random()*100);
+                this.dx=w/2;
+                this.dy=h/2;
+                this.rand=Math.floor(Math.random()*360);
+                this.speed=this.pos/100000;
+                stars[count]=this;
+                count ++;
+            }
+            Star.prototype.draw=function(){
+                var x=Math.sin(this.rand+1)* this.pos+this.dx;
+                    y=Math.cos(this.rand)*this.pos/2+this.dy;
+                ctx.drawImage(canvas2,x-this.r/2,y-this.r/2,this.r,this.r);
+                this.rand=this.rand+this.speed;
+            }
+            for(var i=0;i<1000;i++){
+                new Star();
+            }
+            function anmit(){
+                ctx.clearRect(0,0,w,h);
+                for(var i=0;i<stars.length;i++){
+                    stars[i].draw();
+                }
+                requestAnimationFrame(anmit);
+            }
+            anmit();
+            var oH=document.getElementsByTagName("h1")[0];
+            var arr=["这世间过于俗气","不像陌陌一般","浩瀚星辰,温柔婉转","陌陌是唯一鸭"],
+                index=0,
+                arrLen=arr.length,
+                strLen=arr[0].length;
+                pos=0,
+                row=0,
+                str="",
+                timer=null;
+            function print() {
+                while(row<index){
+                    str=str+arr[row]+"<br>";
+                    row++;
+                }
+                oH.innerHTML=str+arr[index].substring(0,pos);
+                if(pos==strLen){
+                    index++;
+                    pos =0;
+                    if(index<arr.length){
+                        strLen=arr[index].length;
+                        timer=setTimeout(print,250);
+                    }
+                }else{
+                    pos++;
+                    timer=setTimeout(print,250);
+                }
+            }
+            setTimeout(print,250);
+    </script>
+</body>
+</html>
