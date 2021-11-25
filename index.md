@@ -40,7 +40,7 @@
 <body>
     <div id="momo">
         <div class="icon">
-            <img src="https://i.ibb.co/GQhcvZq/cnmsb05.png" alt="cnmsb05" border="0">
+          
             <span>黯伤墨浩的顺其自然</span>
         </div>
       <div class="left">
