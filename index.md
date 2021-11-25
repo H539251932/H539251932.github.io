@@ -12,15 +12,14 @@
         .icon>span{
             font-size: 50px;
         }
-        .icon>img{
+        .icon img{
             width: 40px;
             height: auto;
         }
         .left{
-            float: left;
+             text-align: center;
         }
         .right{
-            float: right;
             text-align: center;
             color: pink;
             font-size: large;
