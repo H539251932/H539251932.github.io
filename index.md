@@ -1,73 +1,38 @@
------------------------------------
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh">
+
 <head>
-    <style>
-        #momo{
-            width: 100%;
-            height: 80%;
-        }
-        .icon{
-            text-align: center;
-        }
-        .icon>span{
-            font-size: 50px;
-        }
-        .icon img{
-            width: 40px;
-            height: auto;
-        }
-        .left{
-             text-align: center;
-        }
-        .right{
-            text-align: center;
-            color: pink;
-            font-size: large;
-        }
-        .right>span>img{
-            width: 20px;
-            height: auto;
-        }
-        .left>img{
-            text-align: center;
-        }
-        .end{
-            text-align: center;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到个人主页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="index_1.html">
+    <audio src="etc/C4000042Wi3h4LjMsJ.m4a" id="audio"></audio>
 </head>
 
 <body>
-    <div id="momo">
-        <div class="icon">
-          <img src="https://i.ibb.co/GQhcvZq/cnmsb05.png" alt="cnmsb05" border="0">
-            <span>黯伤墨浩的顺其自然</span>
+    <div class="container">
+        <div class="user-form">
+            <div class="bg-user">
+                <div class="top"><img src="images/bj.jpeg"></div>
+                <div class="circle"><img src="http://q1.qlogo.cn/g?b=qq&nk=327893&s=640"></div>
+                <p class="user-title">沦陷</p>
+                <p class="user-qq">QQ: 110</p>
+                <div class="idcard"><img src="images/svip.png"></div>
+                <div class="zan"><img src="images/zan.png"></div>
+                <p class="sign-text"><img src="images/person.jpeg">&nbsp;神&nbsp;|&nbsp;巨蟹座&nbsp;|&nbsp;日本&nbsp;</p>
+                <p class="sign-text"><img src="images/sign.jpeg"><a href="https://www.baidu.com/">学习</a></p>
+                <p class="sign-text"><img src="images/qzone.jpeg"><a href="https://mp.qzone.qq.com/u/327893?uin=327893&is_famous_space=0&brand_flag=0">&nbsp;Ta的空间</a></p>
+                <p class="sign-text"><img src="images/camera.jpeg">&nbsp;精选照片</p>
+                <div class="border-img"><img src="images/1.gif"></div>
+                <button class="btn-blue" onclick="window.open('tencent://message/?uin=327893&Menu=yes')">添加好友</button>
+                <button class="btn-music" id="music">音乐设置</button>
+            </div>
         </div>
-      <div class="left">
-         
-         </div>
-         <div>
-        <ul class="right">
-            <h3>我的小技能</h3>
-            <span><img src="https://i.ibb.co/8xmyF2h/cnmsb01.png" alt="cnmsb01" border="0"><a href="https://mohao99.coding.net/public/"><span>代码</span></a></span><br>
-            <span><img src="https://i.ibb.co/2jZw0mx/cnmsb02.png" alt="cnmsb02" border="0"><a href="https://www.ranwen8.com/"><span>小说</span></a></span><br>
-            <span><img src="https://i.ibb.co/PxSxXC4/cnmsb03.png" alt="cnmsb03" border="0"><a href="https://yhdm.nl/"><span>动漫</span></a></span><br>
-            <span><img src="https://i.ibb.co/qCwQ7VY/cnmsb04.png" alt="cnmsb04" border="0"><a href="https://www.csdn.net/"><span>CSDN</span></a></span><br>
-            <span><img src="https://i.ibb.co/yNLQnhW/cnmsb06.png" alt="cnmsb06" border="0"><a href="https://www.bing.com/"><span>BING</span></a></span><br>
-            <span><img src="https://i.ibb.co/94STL3Y/cnmsb07.png" alt="cnmsb07" border="0"><a href="https://www.github.com/"><span>GITHUB</span></a></span><br>
-            
-         </ul>
-         </div>
     </div>
-        <div class="end">
-           <p>以上为胡浩版权所有，盗版必究，需要请联系我或登录<a href="http://www.h539251932.ys168.com/">顺其自然空间</a></p>
-        </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/sweetalert.min.js"> </script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
