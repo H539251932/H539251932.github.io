@@ -14,7 +14,7 @@
     <div class="container">
         <div class="user-form">
             <div class="bg-user">
-                <div class="top"><img src="images/bj.jpeg"></div>
+                <div class="top"><img src="yyds.png"></div>
                 <div class="circle"><img src="http://q1.qlogo.cn/g?b=qq&nk=327893&s=640"></div>
                 <p class="user-title">沦陷</p>
                 <p class="user-qq">QQ: 110</p>
