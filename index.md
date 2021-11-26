@@ -18,7 +18,7 @@
                 <div class="circle"><img src="http://q1.qlogo.cn/g?b=qq&nk=327893&s=640"></div>
                 <p class="user-title">沦陷</p>
                 <p class="user-qq">QQ: 110</p>
-                <div class="idcard"><img src="./images/svip.png"></div>
+                <div class="idcard"><img src="images/svip.png"></div>
                 <div class="zan"><img src="./images/zan.png"></div>
                 <p class="sign-text"><img src="images/person.jpeg">&nbsp;神&nbsp;|&nbsp;巨蟹座&nbsp;|&nbsp;日本&nbsp;</p>
                 <p class="sign-text"><img src="images/sign.jpeg"><a href="https://www.baidu.com/">学习</a></p>
