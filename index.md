@@ -15,7 +15,7 @@
         <div class="user-form">
             <div class="bg-user">
                 <div class="top"><img src="yyds.png"></div>
-                <div class="circle"><img src="http://q1.qlogo.cn/g?b=qq&nk=327893&s=640"></div>
+                <div class="circle"><img src="头像.png"></div>
                 <p class="user-title">黯伤墨浩</p>
                 <p class="user-qq">QQ: 110</p>
                 <div class="idcard"><img src="images/svip.png"></div>
