@@ -21,10 +21,11 @@
                 <div class="idcard"><img src="images/svip.png"></div>
                 <div class="zan"><img src="images/zan.png"></div>
                 <p class="sign-text"><img src="images/person.jpeg">&nbsp;神&nbsp;|&nbsp;巨蟹座&nbsp;|&nbsp;日本&nbsp;</p>
-                <p class="sign-text"><img src="images/sign.jpeg"><a href="https://mohao99.coding.net/public/">代码---</a><a href="https://www.csdn.net/">代码---</a></p>
+                <p class="sign-text"><img src="images/sign.jpeg"><a href="https://mohao99.coding.net/public/">代码---</a><a href="https://www.csdn.net/">学习</a></p>
+         <p class="sign-text"><img src="https://i.ibb.co/8xmyF2h/cnmsb01.png"><a href="https://www.ranwen8.com/">小说---</a><a href="https://yhdm.nl/">动漫</a></p>
                 <p class="sign-text"><img src="images/qzone.jpeg"><a href="http://www.h539251932.ys168.com/">&nbsp;Ta的空间</a></p>
                 <p class="sign-text"><img src="images/camera.jpeg">&nbsp;精选照片</p>
-                <div class="border-img"><img src="images/214.m4a"></div>
+                <div class="border-img"><img src="images/1.gif"></div>
                 <button class="btn-blue" onclick="window.open('tencent://message/?uin=2829322667&Menu=yes')">添加好友</button>
                 <button class="btn-music" id="music">提醒</button>
             </div>
