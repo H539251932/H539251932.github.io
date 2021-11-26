@@ -126,6 +126,7 @@ body::before{
 .zan > img{
     height: 40%;
     width: 50%;
+    float:right;
 }
 .sign-text{
     text-align: left;
