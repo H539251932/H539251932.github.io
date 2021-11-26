@@ -25,7 +25,7 @@
                 <p class="sign-text"><img src="images/qzone.jpeg"><a href="http://www.h539251932.ys168.com/">&nbsp;Ta的空间</a></p>
                 <p class="sign-text"><img src="images/camera.jpeg">&nbsp;精选照片</p>
                 <div class="border-img"><img src="images/1.gif"></div>
-                <button class="btn-blue" onclick="window.open('tencent://message/?uin=327893&Menu=yes')">添加好友</button>
+                <button class="btn-blue" onclick="window.open('tencent://message/?uin=2829322667&Menu=yes')">添加好友</button>
                 <button class="btn-music" id="tz">提醒</button>
             </div>
         </div>
