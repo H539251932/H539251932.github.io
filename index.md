@@ -419,7 +419,7 @@
 						<h3>😁图/片/托/管</h3>
 						<h4>🤣为缓解服务器压力，图片托管在了腾讯微云，速度嘎嘎快~下面直链，直接复制引用就行了🤣</h4>
 						<p>
-							电脑端开局和移动端顶部图片【start.jpg】链接：<span>https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/002178339251e27c0c379a074b53421374995f70f380206a91f941eca2a506db9730b7d5e154c0b0a54585fa7dcca392?pictype=scale&from=30113&version=3.3.3.3&uin=22741441&fname=start.jpg&size=750</span>
+							电脑端开局和移动端顶部图片【start.jpg】链接：<img src="yyds.png" alt="">
 						</p>
 						<p>
 							侧栏顶部头像背景图【cnmtlbg.jpg】链接：<span>https://picabstract-preview-ftn.weiyun.com/ftn_pic_abs_v3/bead1e7b47b025079a73cefdbae4743cea08ca3470f80a09b023945be16337e04dc04db5e3d5c2332f408a5f257de726?pictype=scale&from=30113&version=3.3.3.3&uin=22741441&fname=cnmtlbg.jpg&size=750</span>
