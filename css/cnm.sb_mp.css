@@ -47,9 +47,9 @@ a{
 }
 .exn1_banner{
 	width: 100%;
-	height: 220px;
+	height: auto;
 	/* 顶部头图 */
-	background-image: url(../img/bj.jpg);
+	background-image: url(https://mohao99.coding.net/p/HH/d/HTML/git/raw/master/%E5%9B%BE%E7%89%87/sjbj.jpg?download=true);
 	/* background-image: url(图片api路径); */
 	background-size: cover;
 }
