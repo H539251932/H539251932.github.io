@@ -16,7 +16,7 @@ li{
 /* 特殊英文字体引入
 实现方式: font: 26px cnm,Arial,sans-serif; */
 @font-face {
-	font-family:cnm;src:url("./font/cnm.sb.ttf")
+	font-family:cnm;src:url("font/cnm.sb.ttf")
 }
 #etext{
 	width: 100%;
@@ -42,7 +42,7 @@ li{
 	top: 0;
 	left: 0;
 	/* 站点背景图片 */
-	background-image: url(./img/bg.jpg);
+	background-image: url(img/bg.jpg);
 	/* background-image: url(图片api路径); */
 	background-size: cover;
 	background-position: center center;
