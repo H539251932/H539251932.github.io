@@ -95,7 +95,7 @@ li{
         height: 200px;
         object-fit: cover;
         border-radius: 10px;
-        margin: 10px;
+        margin: 20px -69px;
 }
 .cleft_top{
 	width: 100%;
@@ -246,10 +246,11 @@ li{
 }
 .nav01_wz h4{
 	font: 1.8em cnm,Arial,sans-serif;
-	text-shadow: 5px 5px 5px #909090;
-	letter-spacing: 0.5em;
-	font-weight: 500;
-	color: #f55b34;
+        text-shadow: 5px 5px 5px #909090;
+        letter-spacing: 0.5em;
+        font-weight: 500;
+        color: #f55b34;
+        margin: 10px -47px;
 }
 .nav01_wz h3{
 	font-size: 1.3em;
@@ -260,12 +261,13 @@ li{
 }
 .nav01_but{
 	margin-top: 14%;
+	margin-left: -10px;
 }
 .nav01_but div{
 	float: left;
 	height: 36px;
 	padding: 0px 40px;
-	margin: 0px 10px;
+	margin: -16px 5px;
 	/* 按钮边框颜色 */
 	border: 1px solid #4b9cdb;
 	font-size: 13px;
