@@ -91,11 +91,11 @@ li{
 }
 .nav01_wz>img{
 	display: flex;
-        width: 95%;
-        height: 200px;
+        width: 100%;
+        height: 220px;
         object-fit: cover;
         border-radius: 10px;
-        margin: 20px -69px;
+        margin: 0px -66px;
 }
 .cleft_top{
 	width: 100%;
@@ -204,6 +204,7 @@ li{
 	float: left;
 	transition: 0.5s;
 	position: relative;
+	margin-top: 70px;
 }
 .nav01_logo{
 	width: 100%;
