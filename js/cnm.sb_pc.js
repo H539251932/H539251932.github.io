@@ -17,7 +17,7 @@ window.onload=function()
 	let divTyping = document.getElementById('etext')
 	let i = 0,
 		timer = 0,
-		str = '欢迎来到mohao的小窝'
+		str = '欢迎来到Moinkhao的小窝'
 	function typing()
 	{
 		if (i <= str.length)
